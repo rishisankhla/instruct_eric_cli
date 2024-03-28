@@ -73,11 +73,9 @@ php cli_app.php service:query DE
 
 **Output:**
 
-```
 BMELAB1, Black Mesa, Interdimensional Travel, de
 BMELAB2, Black Mesa Second Site, Interdimensional Travel, DE
 Total services in DE: 2
-```
 
 ### Query 2:
 
@@ -87,9 +85,7 @@ php cli_app.php service:query
 
 **Output:**
 
-```
 Please provide a country code or use --summary option to display summary.
-```
 
 ### Query 3:
 
@@ -99,18 +95,16 @@ php cli_app.php service:query --summary
 
 **Output:**
 
-```
 Total services in FR: 2
 Total services in DE: 2
 Total services in GB: 2
 Total services in CZ: 1
 Total services in IT: 1
 Total services in PT: 1
-```
 
 ## Running Tests
 
-To run all tests:
+### To run all tests:
 
 ```bash
 ./vendor/bin/phpunit tests/
@@ -118,7 +112,6 @@ To run all tests:
 
 **Output:**
 
-```
 PHPUnit 11.0.9 by Sebastian Bergmann and contributors.
 
 Runtime:       PHP 8.3.4
@@ -128,7 +121,6 @@ Runtime:       PHP 8.3.4
 Time: 00:00.060, Memory: 8.00 MB
 
 OK (6 tests, 20 assertions)
-```
 
 ### Running Individual Test Cases:
 
