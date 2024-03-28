@@ -79,7 +79,7 @@ BMELAB1, Black Mesa, Interdimensional Travel, de
 BMELAB2, Black Mesa Second Site, Interdimensional Travel, DE
 Total services in DE: 2
 
-### Query 2:
+### Query 2: 
 
 ```bash
 php cli_app.php service:query
@@ -105,6 +105,7 @@ Total services in GB: 2
 Total services in CZ: 1
 Total services in IT: 1
 Total services in PT: 1
+
 ## Running Tests
 
 ### To run all tests:
