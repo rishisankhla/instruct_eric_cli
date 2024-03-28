@@ -67,6 +67,8 @@ composer install
 
 ### Query 1:
 
+Query 1 allows us to display all the services provided by a specific country. In the example below, we query services available in Germany by using the country code 'DE'.
+
 ```bash
 php cli_app.php service:query DE
 ```
@@ -89,6 +91,8 @@ Please provide a country code or use --summary option to display summary.
 
 ### Query 3:
 
+Query 3 generates a summary, displaying the total number of services available in each country.
+
 ```bash
 php cli_app.php service:query --summary
 ```
@@ -101,7 +105,6 @@ Total services in GB: 2
 Total services in CZ: 1
 Total services in IT: 1
 Total services in PT: 1
-
 ## Running Tests
 
 ### To run all tests:
